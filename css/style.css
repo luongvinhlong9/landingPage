@@ -1,0 +1,96 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+    /* color: white; */
+    margin: 0;
+    padding: 0;
+}
+#welcome {
+    height: 925px;
+    background-image: url(../imgs/welcome.png)
+}
+#welcome .info{
+    /* display: inline; */
+    margin: 0 100;
+    color: white;
+}
+.info-item {
+
+    display: inline-flex;
+    padding: 10;
+    margin-left: 20px;
+    margin: auto;
+
+}
+.info-item .p{
+    margin: auto;
+}
+.social{
+    display: inline;
+    margin-right: 100;
+}
+.social-item {
+    display: inline-flex;
+    padding: 10;
+    margin-right: 20px;
+    margin: auto;
+}
+#menu ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 50;
+}
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    margin-right: 15;
+    text-decoration: none;
+    /* width: 50px; */
+    height: 40px;
+
+}
+#menu ul li:hover {
+    background: #F1F1F1;
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.wel-content{
+    margin-top: 270px;
+    text-align: center;
+    color: white;
+}
+.wel-content .wel{
+    font-size: 80px;
+}
+.wel-content .deltail{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.wel-button{
+    margin-top: 50px ;
+}
+.wel-button button{
+    height: 40px;
+    width: 100px;
+    border: 1cm;
+    font-size: 15px;
+    background-color: #FF6666;
+    color: white;
+
+}
+button a{
+    text-decoration: none;
+}
+
+#introduce {
+    height: 500px;
+}
+#introduce .info{
+    width: 50%;
+}
+.info.info-text{
+    color: black;
+}
