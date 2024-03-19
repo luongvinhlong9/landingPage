@@ -86,11 +86,45 @@ button a{
 }
 
 #introduce {
-    height: 500px;
+    height: 350px;
+    padding: 150px 50px;
+    display: inline-block;
 }
 #introduce .info{
     width: 50%;
+    display: inline-block;
+    float: left;
+
 }
-.info.info-text{
+.info .info-text{
     color: black;
+}
+
+.info-text .who p{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.info-video{
+    display: block;
+    float: right;
+    margin-right: 100px;
+}
+.info-video video{
+    /* height: 300px;
+    width: 300px; */
+}
+.info-button{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.info-button button{
+    height: 40px;
+    width: 100px;
+    border: 1cm;
+    font-size: 15px;
+    background-color: #FF6666;
+    color: white;
+
 }
