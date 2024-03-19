@@ -393,3 +393,25 @@ button a{
     color: #FF6666;
     margin-top: 20px;
 }
+#achievement{
+    background-image: url(../imgs/achievement-background.jpg);
+    height: 200px;
+
+}
+.achievement  {
+    width: 10%;
+    color: white;
+}
+#achievement table {
+    margin: auto;
+    height: 200px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+.achievement .icon{
+    float: left;
+    /* display: inline; */
+}
+.achievement .ac-text{
+    float: left;
+}
