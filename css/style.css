@@ -678,16 +678,21 @@ ul {
 }
 
 #contact {
-    display: inline-block;
-    justify-content: space-between;
+
     padding: 50px 150px;
     height: 500px;
+}
+
+#contact {
+    display: inline-block;
+    justify-content: space-between;
+
 }
 
 #contact .c-info {
     float: left;
     width: 450px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 300px;
     position: relative;
 }
@@ -712,13 +717,13 @@ ul {
 
 #contact .touch hr {
     width: 30%;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 #contact .form {
     float: left;
     width: 450px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 300px;
     position: relative;
 }
@@ -734,12 +739,30 @@ ul {
     background-color: #ccc;
 }
 
+#contact hr {
+    margin-top: 100px;
+}
+
 .web-info {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
-.info-item {
+.w-item .info-name {
+    font-size: 25px;
+}
+
+.w-item .info-about {
+    font-size: 20px;
+}
+
+.w-item p {
+    margin-bottom: 5px;
+}
+
+.w-item {
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: block;
 }
