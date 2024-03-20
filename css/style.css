@@ -1,19 +1,22 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: initial;
     /* color: white; */
     margin: 0;
     padding: 0;
 }
+
 #welcome {
     height: 925px;
     background-image: url(../imgs/welcome.png)
 }
-#welcome .info{
+
+#welcome .info {
     /* display: inline; */
     margin: 0 100;
     color: white;
 }
+
 .info-item {
 
     display: inline-flex;
@@ -22,24 +25,29 @@
     margin: auto;
 
 }
-.info-item .p{
+
+.info-item .p {
     margin: auto;
 }
-.social{
+
+.social {
     display: inline;
     margin-right: 100;
 }
+
 .social-item {
     display: inline-flex;
     padding: 10;
     margin-right: 20px;
     margin: auto;
 }
+
 #menu ul {
     list-style-type: none;
     text-align: right;
     margin-right: 50;
 }
+
 #menu li {
     color: #f1f1f1;
     display: inline-block;
@@ -49,30 +57,37 @@
     height: 40px;
 
 }
+
 #menu ul li a:hover {
     text-decoration: under-line;
     color: red
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-.wel-content{
+
+.wel-content {
     margin-top: 270px;
     text-align: center;
     color: white;
 }
-.wel-content .wel{
+
+.wel-content .wel {
     font-size: 80px;
 }
-.wel-content .deltail{
+
+.wel-content .deltail {
     margin-top: 40px;
     font-size: 20px;
 }
-.wel-button{
-    margin-top: 50px ;
+
+.wel-button {
+    margin-top: 50px;
 }
-.wel-button button{
+
+.wel-button button {
     height: 40px;
     width: 100px;
     border: 1cm;
@@ -81,7 +96,8 @@ a{
     color: white;
 
 }
-button a{
+
+button a {
     text-decoration: none;
 }
 
@@ -90,36 +106,41 @@ button a{
     padding: 150px 50px 0 50px;
     display: inline-block;
 }
-#introduce .info{
+
+#introduce .info {
     width: 50%;
     display: block;
     float: left;
 
 }
-.info .info-text{
+
+.info .info-text {
     color: black;
 }
 
-.info-text .who p{
+.info-text .who p {
     font-size: 35px;
     margin-bottom: 20px;
 }
 
-.info-video{
+.info-video {
     display: block;
     float: right;
     margin-right: 100px;
 }
-.info-video video{
+
+.info-video video {
     /* height: 300px;
     width: 300px; */
 }
-.info-button{
+
+.info-button {
     margin: auto;
     text-align: center;
     margin-top: 10px;
 }
-.info-button button{
+
+.info-button button {
     height: 40px;
     width: 100px;
     border: 1cm;
@@ -128,99 +149,115 @@ button a{
     color: white;
 }
 
-#history{
+#history {
     height: 600px;
     background-image: url(../imgs/historyBackground.jpg);
     background-repeat: no-repeat;
 }
-.title p{
+
+.title p {
     padding-top: 70px;
     font-size: 25px;
     /* color: chocolate; */
     text-align: center;
 }
-#history .title{
+
+#history .title {
     color: black;
 }
-#history .title hr{
+
+#history .title hr {
     width: 150px;
     margin: auto;
     size: 10px;
     color: #FF6666;
     margin-top: 20px;
 }
-.history-content{
+
+.history-content {
     margin-top: 50px;
 }
+
 .history-img {
     width: 300px;
     height: 300px;
     float: left;
     margin-left: 200px;
 }
-.history-img img{
+
+.history-img img {
     width: 300px;
     height: 300px;
 }
-.timeline{
+
+.timeline {
     /* margin: 20px auto; */
     max-width: 600;
     float: right;
 
 }
-.checkpoint{
+
+.checkpoint {
     max-width: 550px;
     padding-top: 15px;
     padding-bottom: 15px;
     position: relative;
 }
-.checkpoint h2{
+
+.checkpoint h2 {
     color: red;
 }
-.checkpoint p{
+
+.checkpoint p {
     line-height: 27px;
     color: white;
 }
 
-#service{
+#service {
     height: 500px;
 }
-#service .title{
+
+#service .title {
     color: black
 }
-.service-text{
+
+.service-text {
     padding: 30px;
 }
 
-.service-text p{
+.service-text p {
     font-size: 25px;
     color: chocolate;
     text-align: center;
 }
-#service .title hr{
+
+#service .title hr {
     width: 150px;
     margin: auto;
     size: 10px;
     color: #FF6666;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-.service-box{
+
+.service-box {
     display: flex;
     text-align: center;
     margin: auto;
 }
-.sbox1{
+
+.sbox1 {
     height: 300px;
     width: 25%;
     /* border: 2px solid red; */
     float: left;
     margin: 0 5%;
-    background-color:#DDDDDD;
+    background-color: #DDDDDD;
 
     /* margin-left: 50px; */
 }
-.sbox2{
+
+.sbox2 {
     height: 300px;
     width: 25%;
     /* border: 2px solid red; */
@@ -230,43 +267,53 @@ button a{
     color: white;
     /* margin-left:100; */
 }
-.sbox3{
+
+.sbox3 {
     height: 300px;
     width: 25%;
     /* border: 2px solid red; */
     margin: 0 5%;
     float: left;
-    background-color:#DDDDDD;
+    background-color: #DDDDDD;
 
     /* margin: ; */
 }
-.sbox1 i, .sbox2 i, .sbox3 i{
+
+.sbox1 i,
+.sbox2 i,
+.sbox3 i {
     margin-top: 20%;
 }
-.sbox1 p, .sbox2 p, .sbox3 p{
+
+.sbox1 p,
+.sbox2 p,
+.sbox3 p {
     margin-top: 5%;
 }
 
-#provice{
+#provice {
     background-image: url(../imgs/provice-background.jpg);
     height: 500px;
 }
-.prov-img{
+
+.prov-img {
     width: 50%;
     height: 100%;
     background-image: url(../imgs/prov-img.jpg);
     float: left;
 }
-.prov-content{
+
+.prov-content {
     float: right;
     color: white;
 }
-.prov-content .what{
+
+.prov-content .what {
     margin-top: 70px;
     font-size: 30px;
 }
 
-.prov-content .wprovice{
+.prov-content .wprovice {
     max-width: 550px;
     /* max-height: 50px; */
     padding-top: 15px;
@@ -274,35 +321,42 @@ button a{
     position: relative;
 
 }
-.prov-content .wprovice .prov-icon{
+
+.prov-content .wprovice .prov-icon {
     float: left;
     /* height: 100px; */
     font-size: 25px;
     margin-right: 5%;
 }
-#work{
+
+#work {
     height: 700px;
     /* border: 2px solid red; */
 }
-.work-text{
+
+.work-text {
     margin-top: 50px;
     font-size: 25px;
     text-align: center;
 }
-.work-text hr{
+
+.work-text hr {
     width: 15%;
     margin: auto;
     margin-top: 15px;
     size: 10px;
     color: #FF6666;
 }
-.work-menu{
+
+.work-menu {
     text-align: center;
     margin-top: 25px;
 }
+
 .work-menu ul {
     list-style-type: none;
 }
+
 .work-menu li {
     color: black;
     display: inline-block;
@@ -312,139 +366,182 @@ button a{
     height: 40px;
 
 }
+
 .work-menu ul li a:hover {
     text-decoration: under-line;
     color: red
 }
-.work-menu li a{
+
+.work-menu li a {
     color: black;
 }
+
 .work-select table {
     margin: auto;
     margin-top: 15px;
 }
-.work-select table td{
+
+.work-select table td {
     width: 300;
     height: 250px;
     /* border: 2px solid blue; */
     padding: 5px;
 }
-.work-select table td img{
+
+.work-select table td img {
     width: 300;
     height: 250px;
 }
-.work-select table tr td:hover{
+
+.work-select table tr td:hover {
     border: #FF6666;
 }
-#skill{
+
+#skill {
     background-image: url(../imgs/skill-background.jpg);
     height: 350px;
     color: white;
     padding: 100px;
 }
-.skill-text{
+
+.skill-text {
     width: 50%;
     float: left;
     margin-left: 100px;
 }
-.skill-img{
+
+.skill-img {
     max-width: 50%;
     float: left;
 }
-.skill-img img{
+
+.skill-img img {
     /* height: 350px; */
     width: 400px;
 }
-.skill-text .title p{
+
+.skill-text .title p {
     font-size: 25px;
 }
-.skill-text .title hr{
+
+.skill-text .title hr {
     width: 30%;
     margin: 15px 0;
     background-color: red;
     color: red;
 }
-.skill-detail{
+
+.skill-detail {
     margin-top: 20px;
 }
+
 .container {
     width: 90%;
     background-color: #ddd;
     margin-bottom: 25px;
 }
+
 .skills {
     text-align: right;
     padding-right: 10px;
     line-height: 10px;
     color: white;
 }
-.Design {width: 90%; background-color: #f44336;}
-.Development {width: 95%; background-color: #f44336;}
-.Photography {width: 85%; background-color: #f44336;}
-.Strategy {width: 85%; background-color: #f44336;}
 
-#team{
+.Design {
+    width: 90%;
+    background-color: #f44336;
+}
+
+.Development {
+    width: 95%;
+    background-color: #f44336;
+}
+
+.Photography {
+    width: 85%;
+    background-color: #f44336;
+}
+
+.Strategy {
+    width: 85%;
+    background-color: #f44336;
+}
+
+#team {
     height: 500px;
 }
-#team .title hr{
+
+#team .title hr {
     width: 150px;
     margin: auto;
     size: 10px;
     color: #FF6666;
     margin-top: 20px;
 }
-#achievement{
+
+#achievement {
     background-image: url(../imgs/achievement-background.jpg);
     height: 200px;
     /* background-repeat: no-repeat; */
 
 }
-.achievement  {
+
+.achievement {
     width: 10%;
     color: white;
 }
+
 #achievement table {
     margin: auto;
     height: 200px;
     max-width: 90%;
     margin-top: 15px;
 }
-.achievement .icon{
+
+.achievement .icon {
     float: left;
     /* display: inline; */
 }
-.achievement .ac-text{
+
+.achievement .ac-text {
     float: left;
 }
+
 #pricing {
     height: 500px;
 }
-#pricing .title hr{
+
+#pricing .title hr {
     width: 15%;
     margin: auto;
     margin-top: 15px;
 }
 
-.pricing-select .price{
+.pricing-select .price {
     height: 100px;
     background-color: gray;
     text-align: center;
     margin-top: 0;
 }
-.pricing-select .price2{
+
+.pricing-select .price2 {
     background-color: red;
 
 }
-.pricing-detail{
+
+.pricing-detail {
     color: black;
     text-decoration: none;
     margin-top: 30px;
     text-align: center;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.pricing-detail button{
+
+.pricing-detail button {
     margin: 20px 0;
     width: 40%;
     height: 35px;
@@ -452,7 +549,8 @@ ul{
     color: #ddd;
     border: 0px;
 }
-.pricing-detail2 button{
+
+.pricing-detail2 button {
     background-color: red;
 }
 
@@ -460,16 +558,17 @@ ul{
     display: flex;
     justify-content: space-between;
     margin: 20 150;
-  }
+}
 
-  .item {
-    width: 25%; /* hoặc bất kỳ giá trị nào phù hợp */
+.item {
+    width: 25%;
+    /* hoặc bất kỳ giá trị nào phù hợp */
     height: 10%;
-    border:1px solid gray;
-  }
+    border: 1px solid gray;
+}
 
-#quote{
-    height: 500px;
+#quote {
+    /* height: 500px; */
     border: 1px solid red;
     background-image: url(../imgs/quote-backround.jpg);
     color: white;
@@ -477,20 +576,24 @@ ul{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .quote {
     margin-top: 70px;
     font-size: 35;
     color: red;
 
 }
-#quote .text{
+
+#quote .text {
     padding: 0 100;
 }
-#quote .author{
+
+#quote .author {
     margin-top: 25px;
     font-size: 12px;
 }
-.get-quote{
+
+.get-quote {
     margin-top: 20px;
     background-color: #FF6666;
     height: 70px;
@@ -498,13 +601,16 @@ ul{
     justify-content: space-between;
     padding-top: 20px;
 }
-.get-quote .text{
+
+.get-quote .text {
     width: 45%
 }
-.get-quote .button{
+
+.get-quote .button {
     width: 45%
 }
-.get-quote .button button{
+
+.get-quote .button button {
     height: 40px;
     width: 120px;
     background-color: white;
@@ -512,37 +618,128 @@ ul{
     border: 0px;
 }
 
-#news .title hr{
+#news .title hr {
     /* height: 450px; */
     width: 15%;
     margin: auto;
     margin-top: 15px;
 }
-#news .item{
+
+#news .item {
     height: 70%;
     background-color: #C0C0C0;
 }
-#news .item p{
+
+#news .item p {
     color: white;
 }
-#news .item2 p{
+
+#news .item2 p {
     color: black;
 }
-#news .item .news{
+
+#news .item .news {
     font-size: 20px;
 }
-#news .item .date{
+
+#news .item .date {
     color: red;
 }
-#news .item2{
+
+#news .item2 {
     height: 70%;
     background-image: url(../imgs/prov-img.jpg);
 }
-#news .item .pricing-detail{
+
+#news .item .pricing-detail {
     margin-top: 20px;
 }
 
-#news .item .pricing-detail p{
+#news .item .pricing-detail p {
     margin-top: 20px;
 }
 
+#logo {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../imgs/achievement-background.jpg);
+    height: 120px;
+    padding: 50 100;
+}
+
+#logo .logo {
+    width: 18%;
+    /* height: 100px; */
+}
+
+#logo .logo img {
+    width: 70%;
+    /* height: 100px; */
+}
+
+#contact {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 50px 150px;
+    height: 500px;
+}
+
+#contact .c-info {
+    float: left;
+    width: 450px;
+    border: 1px solid blue;
+    height: 300px;
+    position: relative;
+}
+
+#contact button {
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 120px;
+    background-color: #FF6666;
+    color: white;
+    border: 0px;
+}
+
+#contact .c-info p {
+    margin-top: 10px;
+}
+
+#contact .touch {
+    font-size: 25px;
+}
+
+#contact .touch hr {
+    width: 30%;
+    margin-top: 25px;
+}
+
+#contact .form {
+    float: left;
+    width: 450px;
+    border: 1px solid blue;
+    height: 300px;
+    position: relative;
+}
+
+#contact .form input,
+#contact .form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ccc;
+}
+
+.web-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    width: 30%;
+    border: 1px solid red;
+}
