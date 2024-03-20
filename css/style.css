@@ -282,7 +282,7 @@ button a{
 }
 #work{
     height: 700px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .work-text{
     margin-top: 50px;
@@ -396,6 +396,7 @@ button a{
 #achievement{
     background-image: url(../imgs/achievement-background.jpg);
     height: 200px;
+    /* background-repeat: no-repeat; */
 
 }
 .achievement  {
@@ -415,3 +416,57 @@ button a{
 .achievement .ac-text{
     float: left;
 }
+#pricing {
+    height: 500px;
+}
+#pricing .title hr{
+    width: 15%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.pricing-select .price{
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 0;
+}
+.pricing-select .price2{
+    background-color: red;
+
+}
+.pricing-detail{
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.pricing-detail button{
+    margin: 20px 0;
+    width: 40%;
+    height: 35px;
+    background-color: gray;
+    color: #ddd;
+    border: 0px;
+}
+.pricing-detail2 button{
+    background-color: red;
+}
+#quote{
+    height: 500px;
+
+}
+.pricing-select {
+    display: flex;
+    justify-content: space-between;
+    margin: 20 150;
+  }
+
+  .item {
+    width: 25%; /* hoặc bất kỳ giá trị nào phù hợp */
+    height: 10%;
+    border:1px solid gray;
+  }
