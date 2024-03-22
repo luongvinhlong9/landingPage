@@ -526,7 +526,8 @@ button a {
 }
 
 .pricing-select .price2 {
-    background-color: red;
+    background-color: #FF6666;
+
 
 }
 
@@ -551,7 +552,8 @@ ul {
 }
 
 .pricing-detail2 button {
-    background-color: red;
+    background-color: #FF6666;
+
 }
 
 .pricing-select {
@@ -569,7 +571,7 @@ ul {
 
 #quote {
     /* height: 500px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url(../imgs/quote-backround.jpg);
     color: white;
     text-align: center;
