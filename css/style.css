@@ -212,8 +212,15 @@
 
 #welcome .info {
     /* display: inline; */
-    margin: 0 100;
+    /* margin: 0 100; */
     color: white;
+    display: block;
+}
+
+.info-items {
+    display: inline;
+    position: absolute;
+    left: 10%;
 }
 
 .info-item {
@@ -231,7 +238,8 @@
 
 .social {
     display: inline;
-    margin-right: 100;
+    position: absolute;
+    right: 10%;
 }
 
 .social-item {
@@ -239,6 +247,15 @@
     padding: 10;
     margin-right: 20px;
     margin: auto;
+}
+
+#welcome .menu {
+    color: white;
+    display: block;
+    /* position: absolute; */
+
+    /* margin-top: 25px; */
+
 }
 
 #menu ul {
@@ -328,10 +345,10 @@ button a {
     margin-right: 100px;
 }
 
-.info-video video {
-    /* height: 300px;
-    width: 300px; */
-}
+/* .info-video video {
+    height: 300px;
+    width: 300px;
+} */
 
 .info-button {
     margin: auto;
