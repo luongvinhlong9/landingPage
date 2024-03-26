@@ -12,38 +12,51 @@
 <body>
     <section id="welcome">
         <div class="info">
-            <div class="info-items">
-                <div class="info-item">
-                    <i class="fa fa-phone" style="height: auto;color:red"></i>
-                    <p>99.123.456</p>
-                </div>
-                <div class="info-item">
-                    <i class="fa fa-envelope" style="color:red"></i>
-                    <p>office@site.com</p>
-                </div>
-                <div class="info-item">
-                    <i class="fa fa-home" style="color:red"></i>
-                    <p>12 Street, New York City</p>
-                </div>
-            </div>
-            <div class="social">
-                <div class="social-item">
-                    <a href="#"><i class="fa fa-facebook-f" style="color: white ;"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><i class="fa fa-twitter" style="color: red;"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><i class="fa fa-google" style="color: white ;"></i></i></a>
-                </div>
-            </div>
+            <ul class="info-list">
+                <li class="info-item">
+                    <div class="info-detail">
+                        <i class="fa fa-phone" style="height: auto;color:red"></i>
+                        <p>99.123.456</p>
+                    </div>
+
+                </li>
+                <li class="info-item">
+                    <div class="info-detail">
+                        <i class="fa fa-envelope" style="color:red"></i>
+                        <p>office@site.com</p>
+                    </div>
+                </li>
+                <li class="info-item">
+                    <div class="info-detail">
+                        <i class="fa fa-home" style="color:red"></i>
+                        <p>12 Street, New York City</p>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li class="info-item">
+                    <div class="info-detail">
+                        <a href="#"><i class="fa fa-facebook-f" style="color: white ;"></i></a>
+                    </div>
+                </li>
+                <li class="info-item">
+                    <div class="info-detail">
+                        <a href="#"><i class="fa fa-twitter" style="color: red;"></i></a>
+                    </div>
+                </li>
+                <li class="info-item">
+                    <div class="info-detail">
+                        <a href="#"><i class="fa fa-google" style="color: white ;"></i></i></a>
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class="menu">
             <div>
                 <h1>Sydney Pro</h1>
             </div>
 
-            <div id="menu">
+            <div class="menu-list">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -79,6 +92,7 @@
             <div class="info-text">
                 <div class="who">
                     <p>Who<br>We Are?</p>
+                    <hr size="5px" color="red">
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -101,7 +115,7 @@
     <section id="history">
         <div class="title">
             <p>Our History</p>
-            <hr>
+            <hr size="5px" color="red">
         </div>
         <div class="history-content">
             <div class="history-img">
@@ -138,7 +152,7 @@
             <hr>
         </div>
         <div class="service-box">
-            <div class="sbox1">
+            <div class="sbox">
                 <div>
                     <i class="fa fa-camera" style="font-size:48px;color:red"></i>
                 </div>
@@ -150,7 +164,7 @@
                         est laborum</p>
                 </div>
             </div>
-            <div class="sbox2">
+            <div class="sbox sbox-center">
                 <div>
                     <i class="fa fa-pencil" style="font-size:48px;color:white"></i>
                 </div>
@@ -162,7 +176,7 @@
                         est laborum</p>
                 </div>
             </div>
-            <div class="sbox3">
+            <div class="sbox">
                 <div>
                     <i class="fa fa-angle-double-up" style="font-size:48px;color:red"></i>
                 </div>
@@ -292,43 +306,46 @@
         </div>
     </section>
     <section id="achievement">
-        <div class="work-select">
-            <table>
-                <tr>
-                    <td>
-                        <div class="achievement">
-                            <div class="icon"><i class="fa fa-clock-o" style="font-size:48px;color:red"></i></div>
-                            <div class="ac-text">
-                                <div class="number">90</div>
-                                <div class="a-text">PROJECTS COMPLETED</div>
-                            </div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="achievement">
-                            <div class="icon"><i class="fa fa-heart" style="font-size:48px;color:red"></i></div>
-                            <div class="number">120</div>
-                            <div class="a-text">HAPPY CLIENTS</div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="achievement">
-                            <div class="icon"><i class="fa fa-bookmark-o" style="font-size:48px;color:red"></i></div>
-                            <div class="number">50</div>
-                            <div class="a-text">WEB ARARDS</div>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="achievement">
-                            <div class="icon"><i class="fa fa-music" style="font-size:48px;color:red"></i></div>
-                            <div class="number">240</div>
-                            <div class="a-text">COFFE MUSIC</div>
-                        </div>
-                    </td>
+        <div class="achievement">
+            <div class="icon"><i class="fa fa-clock-o" style="font-size:48px;color:red"></i></div>
+            <div class="ac-text">
+                <div class="number">
+                    <h2>90</h2>
+                </div>
+                <div class="a-text">PROJECTS<br>COMPLETED</div>
+            </div>
+        </div>
+        <div class="achievement">
+            <div class="icon">
+                <i class="fa fa-heart" style="font-size:48px;color:red"></i>
+            </div>
+            <div class="ac-text">
+                <div class="number">
+                    <h2>120</h2>
+                </div>
+                <div class="a-text">HAPPY<br>CLIENTS</div>
+            </div>
 
-
-                </tr>
-            </table>
+        </div>
+        <div class="achievement">
+            <div class="icon">
+                <i class="fa fa-bookmark-o" style="font-size:48px;color:red"></i>
+            </div>
+            <div class="ac-text">
+                <div class="number">
+                    <h2>50</h2>
+                </div>
+                <div class="a-text">WEB<br>ARARDS</div>
+            </div>
+        </div>
+        <div class="achievement">
+            <div class="icon"><i class="fa fa-music" style="font-size:48px;color:red"></i></div>
+            <div class="ac-text">
+                <div class="number">
+                    <h2>240</h2>
+                </div>
+                <div class="a-text">COFFE<br>MUSIC</div>
+            </div>
         </div>
     </section>
     <section id="pricing">
