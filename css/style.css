@@ -900,31 +900,32 @@ ul {
 #contact {
 
     padding: 50px 150px;
-    height: 500px;
 }
 
+.contact {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    height: 350px;
+}
 
-.contact .c-info {
-    float: left;
-    width: 450px;
-    /* border: 1px solid blue; */
-    height: 300px;
-    position: relative;
+.contact .contact-info {
+    height: 280px;
+    width: 45%;
+    margin-top: 25px;
+    flex-basis: 45%;
 }
 
 .contact button {
-    position: absolute;
     bottom: 0;
     height: 35px;
     width: 120px;
     background-color: #FF6666;
     color: white;
     border: 0px;
+    margin-top: 25px;
 }
 
-.contact .c-info p {
-    margin-top: 10px;
-}
 
 .contact .touch {
     font-size: 25px;
@@ -935,7 +936,7 @@ ul {
     margin-top: 15px;
 }
 
-.contact .form {
+#contact .form {
     float: left;
     width: 450px;
     /* border: 1px solid blue; */
@@ -952,4 +953,17 @@ ul {
     border-radius: 5px;
     font-size: 16px;
     background-color: #ccc;
+}
+
+.web-info {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.web-info .w-item {
+    height: 280px;
+    width: 45%;
+    margin-top: 25px;
+    flex-basis: 45%;
 }
