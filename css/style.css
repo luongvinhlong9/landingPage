@@ -903,13 +903,8 @@ ul {
     height: 500px;
 }
 
-#contact {
-    display: inline-block;
-    justify-content: space-between;
 
-}
-
-#contact .c-info {
+.contact .c-info {
     float: left;
     width: 450px;
     /* border: 1px solid blue; */
@@ -917,7 +912,7 @@ ul {
     position: relative;
 }
 
-#contact button {
+.contact button {
     position: absolute;
     bottom: 0;
     height: 35px;
@@ -927,20 +922,20 @@ ul {
     border: 0px;
 }
 
-#contact .c-info p {
+.contact .c-info p {
     margin-top: 10px;
 }
 
-#contact .touch {
+.contact .touch {
     font-size: 25px;
 }
 
-#contact .touch hr {
+.contact .touch hr {
     width: 30%;
     margin-top: 15px;
 }
 
-#contact .form {
+.contact .form {
     float: left;
     width: 450px;
     /* border: 1px solid blue; */
@@ -948,8 +943,8 @@ ul {
     position: relative;
 }
 
-#contact .form input,
-#contact .form textarea {
+.contact .form input,
+.contact .form textarea {
     width: 100%;
     margin-bottom: 5px;
     padding: 10px;
@@ -957,32 +952,4 @@ ul {
     border-radius: 5px;
     font-size: 16px;
     background-color: #ccc;
-}
-
-#contact hr {
-    margin-top: 100px;
-}
-
-.web-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.w-item .info-name {
-    font-size: 25px;
-}
-
-.w-item .info-about {
-    font-size: 20px;
-}
-
-.w-item p {
-    margin-bottom: 5px;
-}
-
-.w-item {
-    width: 30%;
-    /* border: 1px solid red; */
-    display: block;
 }
